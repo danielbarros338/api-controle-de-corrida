@@ -1,0 +1,27 @@
+{
+  "name": "api-controle-de-corrida",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielbarros338/api-controle-de-corrida.git"
+  },
+  "author": "danielbarros338 <danielbarros338@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielbarros338/api-controle-de-corrida/issues"
+  },
+  "homepage": "https://github.com/danielbarros338/api-controle-de-corrida#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "sequelize": "^6.28.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
