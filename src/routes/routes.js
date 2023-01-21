@@ -10,7 +10,6 @@ module.exports = (app) => {
   app.get('/oauth2/redirect/google', passport.authenticate('google', {
     session: false,
   }), (req, res) => {
-    console.log(req.user.id);
     res.redirect('/');
   });
   app.get('/', (_, res) => res.send('ok'));
